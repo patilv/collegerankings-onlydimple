@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)file:///C:/Users/patil/AppData/Local/Temp/RtmpcbkVso/file9107c9bce4.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+
+  
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/2.3.1/cosmo/bootstrap.min.css">
+     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="http://getbootstrap.com/2.3.2/assets/js/google-code-prettify/prettify.css">
+    <link rel="stylesheet" href="http://aozora.github.io/bootplus/assets/css/docs.css">
+    
+    <script src="./onlydimplechart_files/dimple.v1.js" type="text/javascript"></script>
+    <script src="./onlydimplechart_files/d3.v3.js" type="text/javascript"></script>
+    
+    <style>
+    .rChart {
+      display: block
+      margin: auto auto;
+      width: 100%;
+      height: 400px;
+    }
+    /*
+    body {
+      margin-top: 60px;
+    }
+    */
+    </style>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+          <div class="bs-docs-example">
+            <div id="chart910292421ad" class="rChart nvd3Plot dimple"><svg width="700" height="800"><g><g class="gridlines" transform="translate(0, 375)"><g class="tick major" transform="translate(60,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(93.33333333333334,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(126.66666666666667,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(160,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(193.33333333333334,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(226.66666666666669,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(260,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(293.33333333333337,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(326.6666666666667,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(360,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(393.33333333333337,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(426.6666666666667,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><g class="tick major" transform="translate(460,0)" style="opacity: 1;"><line y2="-350" x2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text y="3" x="0" dy=".71em" style="text-anchor: middle;"></text></g><path class="domain" d="M60,0V0H460V0"></path></g><g class="axis" transform="translate(0, 375)"><g class="tick major" transform="translate(60,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">0</text></g><g class="tick major" transform="translate(93.33333333333334,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">50</text></g><g class="tick major" transform="translate(126.66666666666667,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">100</text></g><g class="tick major" transform="translate(160,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">150</text></g><g class="tick major" transform="translate(193.33333333333334,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">200</text></g><g class="tick major" transform="translate(226.66666666666669,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">250</text></g><g class="tick major" transform="translate(260,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">300</text></g><g class="tick major" transform="translate(293.33333333333337,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">350</text></g><g class="tick major" transform="translate(326.6666666666667,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">400</text></g><g class="tick major" transform="translate(360,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">450</text></g><g class="tick major" transform="translate(393.33333333333337,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">500</text></g><g class="tick major" transform="translate(426.6666666666667,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">550</text></g><g class="tick major" transform="translate(460,0)" style="opacity: 1;"><line y2="6" x2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text y="9" x="0" dy=".71em" style="text-anchor: middle; font-family: sans-serif; font-size: 10px;">600</text></g><path class="domain" d="M60,6V0H460V6" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></path></g><text class="axis title" x="260" y="411.9881628787879" text-anchor="middle" transform="" style="font-family: sans-serif; font-size: 10px;">Overall.Rank</text><g class="gridlines" transform="translate(60, 0)"><g class="tick major" transform="translate(0,375)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,340)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,305)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,270)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,235)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,200)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,165)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,129.99999999999997)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,95)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,60)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><g class="tick major" transform="translate(0,25)" style="opacity: 1;"><line x2="400" y2="0" style="fill: none; stroke: #d3d3d3; opacity: 0.8;"></line><text x="-3" y="0" dy=".32em" style="text-anchor: end;"></text></g><path class="domain" d="M0,25H0V375H0"></path></g><g class="axis" transform="translate(60, 0)"><g class="tick major" transform="translate(0,375)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">0</text></g><g class="tick major" transform="translate(0,340)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">10</text></g><g class="tick major" transform="translate(0,305)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">20</text></g><g class="tick major" transform="translate(0,270)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">30</text></g><g class="tick major" transform="translate(0,235)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">40</text></g><g class="tick major" transform="translate(0,200)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">50</text></g><g class="tick major" transform="translate(0,165)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">60</text></g><g class="tick major" transform="translate(0,129.99999999999997)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">70</text></g><g class="tick major" transform="translate(0,95)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">80</text></g><g class="tick major" transform="translate(0,60)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">90</text></g><g class="tick major" transform="translate(0,25)" style="opacity: 1;"><line x2="-6" y2="0" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></line><text x="-9" y="0" dy=".32em" style="text-anchor: end; font-family: sans-serif; font-size: 10px;">100</text></g><path class="domain" d="M-6,25H0V375H-6" style="fill: none; stroke: #000000; shape-rendering: crispedges;"></path></g><text class="axis title" x="30.87878787878788" y="200" text-anchor="middle" transform="rotate(270, 23, 200)" style="font-family: sans-serif; font-size: 10px;">Best.Value.Rank</text><circle id="University of West Florida, FL/Doctoral/Research Universities/Public___" class="series0 bubble University of West Florida, FL Doctoral/Research Universities Public   " cx="459.33333333333337" cy="168.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Texas A&amp;M University, Corpus Christi, TX/Doctoral/Research Universities/Public___" class="series0 bubble Texas A&amp;M University, Corpus Christi, TX Doctoral/Research Universities Public   " cx="450.6666666666667" cy="60" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Sam Houston State University, TX/Doctoral/Research Universities/Public___" class="series0 bubble Sam Houston State University, TX Doctoral/Research Universities Public   " cx="438" cy="129.99999999999997" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of North Florida, FL/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble University of North Florida, FL Master&#39;s Colleges and Universities (larger programs) Public   " cx="419.33333333333337" cy="252.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of North Carolina, Greensboro, NC/Research Universities (high research activity)/Public___" class="series0 bubble University of North Carolina, Greensboro, NC Research Universities (high research activity) Public   " cx="413.33333333333337" cy="245.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Old Dominion University, VA/Research Universities (high research activity)/Public___" class="series0 bubble Old Dominion University, VA Research Universities (high research activity) Public   " cx="402.6666666666667" cy="81" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Colorado, Colorado Springs, CO/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble University of Colorado, Colorado Springs, CO Master&#39;s Colleges and Universities (larger programs) Public   " cx="402.00000000000006" cy="42.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="East Carolina University, NC/Doctoral/Research Universities/Public___" class="series0 bubble East Carolina University, NC Doctoral/Research Universities Public   " cx="398.6666666666667" cy="259.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of North Carolina, Charlotte, NC/Doctoral/Research Universities/Public___" class="series0 bubble University of North Carolina, Charlotte, NC Doctoral/Research Universities Public   " cx="385.3333333333333" cy="291" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Texas State University, TX/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble Texas State University, TX Master&#39;s Colleges and Universities (larger programs) Public   " cx="384.6666666666667" cy="88" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of North Carolina, Wilmington, NC/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble University of North Carolina, Wilmington, NC Master&#39;s Colleges and Universities (larger programs) Public   " cx="382.6666666666667" cy="298" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="South Dakota State University, SD/Research Universities (high research activity)/Public___" class="series0 bubble South Dakota State University, SD Research Universities (high research activity) Public   " cx="380.6666666666667" cy="266.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of North Carolina, Asheville, NC/Baccalaureate Colleges--Arts &amp; Sciences/Public___" class="series0 bubble University of North Carolina, Asheville, NC Baccalaureate Colleges--Arts &amp; Sciences Public   " cx="380" cy="305" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Massachusetts, Lowell, MA/Research Universities (high research activity)/Public___" class="series0 bubble University of Massachusetts, Lowell, MA Research Universities (high research activity) Public   " cx="378" cy="340" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Louisiana Tech University, LA/Research Universities (high research activity)/Public___" class="series0 bubble Louisiana Tech University, LA Research Universities (high research activity) Public   " cx="374" cy="203.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Brigham Young University, Idaho, ID/Baccalaureate Colleges--Diverse Fields/Private___" class="series0 bubble Brigham Young University, Idaho, ID Baccalaureate Colleges--Diverse Fields Private   " cx="372.6666666666667" cy="273.5" r="5" opacity="0.8" fill="#FB8072" stroke="#d26b5f"></circle><circle id="Wichita State University, KS/Research Universities (high research activity)/Public___" class="series0 bubble Wichita State University, KS Research Universities (high research activity) Public   " cx="370.6666666666667" cy="119.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Appalachian State University, NC/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble Appalachian State University, NC Master&#39;s Colleges and Universities (larger programs) Public   " cx="361.33333333333337" cy="312" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Texas Tech University, TX/Research Universities (high research activity)/Public___" class="series0 bubble Texas Tech University, TX Research Universities (high research activity) Public   " cx="358" cy="158" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of South Florida, FL/Research Universities (very high research activity)/Public___" class="series0 bubble University of South Florida, FL Research Universities (very high research activity) Public   " cx="357.33333333333337" cy="56.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="North Dakota State University, ND/Research Universities (very high research activity)/Public___" class="series0 bubble North Dakota State University, ND Research Universities (very high research activity) Public   " cx="346.6666666666667" cy="25" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="College of Charleston, SC/Master&#39;s Colleges and Universities (medium programs)/Public___" class="series0 bubble College of Charleston, SC Master&#39;s Colleges and Universities (medium programs) Public   " cx="346.00000000000006" cy="350.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Montana, MT/Research Universities (high research activity)/Public___" class="series0 bubble University of Montana, MT Research Universities (high research activity) Public   " cx="344.00000000000006" cy="200" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Christopher Newport University, VA/Master&#39;s Colleges and Universities (smaller programs)/Public___" class="series0 bubble Christopher Newport University, VA Master&#39;s Colleges and Universities (smaller programs) Public   " cx="337.33333333333337" cy="49.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of North Dakota, ND/Research Universities (high research activity)/Public___" class="series0 bubble University of North Dakota, ND Research Universities (high research activity) Public   " cx="334.6666666666667" cy="77.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Central Florida, FL/Research Universities (very high research activity)/Public___" class="series0 bubble University of Central Florida, FL Research Universities (very high research activity) Public   " cx="330" cy="256" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Towson University, MD/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble Towson University, MD Master&#39;s Colleges and Universities (larger programs) Public   " cx="326.6666666666667" cy="109" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="SUNY, Albany (University at Albany), NY/Research Universities (very high research activity)/Public___" class="series0 bubble SUNY, Albany (University at Albany), NY Research Universities (very high research activity) Public   " cx="319.33333333333337" cy="136.99999999999997" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="CUNY, Hunter College, NY/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble CUNY, Hunter College, NY Master&#39;s Colleges and Universities (larger programs) Public   " cx="314" cy="154.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="New Mexico Institute of Mining and Technology, NM/Master&#39;s Colleges and Universities (medium programs)/Public___" class="series0 bubble New Mexico Institute of Mining and Technology, NM Master&#39;s Colleges and Universities (medium programs) Public   " cx="306.6666666666667" cy="210.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Berea College, KY/Baccalaureate Colleges--Arts &amp; Sciences/Private___" class="series0 bubble Berea College, KY Baccalaureate Colleges--Arts &amp; Sciences Private   " cx="306" cy="354" r="5" opacity="0.8" fill="#FB8072" stroke="#d26b5f"></circle><circle id="West Virginia University, WV/Research Universities (high research activity)/Public___" class="series0 bubble West Virginia University, WV Research Universities (high research activity) Public   " cx="300" cy="116" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Idaho, ID/Research Universities (high research activity)/Public___" class="series0 bubble University of Idaho, ID Research Universities (high research activity) Public   " cx="294.66666666666663" cy="287.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="CUNY, Queens College, NY/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble CUNY, Queens College, NY Master&#39;s Colleges and Universities (larger programs) Public   " cx="282.66666666666674" cy="178.99999999999997" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of South Dakota, SD/Research Universities (high research activity)/Public___" class="series0 bubble University of South Dakota, SD Research Universities (high research activity) Public   " cx="280" cy="315.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="SUNY, College of Environmental Science and Forestry, NY/Doctoral/Research Universities/Public___" class="series0 bubble SUNY, College of Environmental Science and Forestry, NY Doctoral/Research Universities Public   " cx="273.33333333333337" cy="172" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="New College of Florida, FL/Baccalaureate Colleges--Arts &amp; Sciences/Public___" class="series0 bubble New College of Florida, FL Baccalaureate Colleges--Arts &amp; Sciences Public   " cx="270.6666666666667" cy="249" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Maryland, Baltimore County, MD/Research Universities (high research activity)/Public___" class="series0 bubble University of Maryland, Baltimore County, MD Research Universities (high research activity) Public   " cx="264" cy="46" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Oregon State University, OR/Research Universities (very high research activity)/Public___" class="series0 bubble Oregon State University, OR Research Universities (very high research activity) Public   " cx="262.6666666666667" cy="112.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="CUNY, Brooklyn College, NY/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble CUNY, Brooklyn College, NY Master&#39;s Colleges and Universities (larger programs) Public   " cx="260.6666666666667" cy="196.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="SUNY, Buffalo (University at Buffalo), NY/Research Universities (very high research activity)/Public___" class="series0 bubble SUNY, Buffalo (University at Buffalo), NY Research Universities (very high research activity) Public   " cx="260" cy="182.49999999999997" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="California Maritime Academy, CA/Baccalaureate Colleges--Diverse Fields/Public___" class="series0 bubble California Maritime Academy, CA Baccalaureate Colleges--Diverse Fields Public   " cx="255.33333333333334" cy="165" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Colorado State University, CO/Research Universities (very high research activity)/Public___" class="series0 bubble Colorado State University, CO Research Universities (very high research activity) Public   " cx="254.00000000000003" cy="105.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Tennessee, Knoxville, TN/Research Universities (very high research activity)/Public___" class="series0 bubble University of Tennessee, Knoxville, TN Research Universities (very high research activity) Public   " cx="248" cy="32" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="CUNY, Baruch College, NY/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble CUNY, Baruch College, NY Master&#39;s Colleges and Universities (larger programs) Public   " cx="246.66666666666666" cy="207" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Mississippi State University, MS/Research Universities (very high research activity)/Public___" class="series0 bubble Mississippi State University, MS Research Universities (very high research activity) Public   " cx="246" cy="147.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Mississippi, MS/Research Universities (high research activity)/Public___" class="series0 bubble University of Mississippi, MS Research Universities (high research activity) Public   " cx="245.33333333333334" cy="151" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Utah State University, UT/Research Universities (high research activity)/Public___" class="series0 bubble Utah State University, UT Research Universities (high research activity) Public   " cx="236.66666666666669" cy="270" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="San Diego State University, CA/Research Universities (high research activity)/Public___" class="series0 bubble San Diego State University, CA Research Universities (high research activity) Public   " cx="236" cy="186" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Montana State University, Bozeman, MT/Research Universities (very high research activity)/Public___" class="series0 bubble Montana State University, Bozeman, MT Research Universities (very high research activity) Public   " cx="230.00000000000003" cy="221" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="SUNY, Geneseo, NY/Master&#39;s Colleges and Universities (smaller programs)/Public___" class="series0 bubble SUNY, Geneseo, NY Master&#39;s Colleges and Universities (smaller programs) Public   " cx="226.66666666666669" cy="214" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Nebraska, Lincoln, NE/Research Universities (very high research activity)/Public___" class="series0 bubble University of Nebraska, Lincoln, NE Research Universities (very high research activity) Public   " cx="224.66666666666669" cy="133.49999999999997" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Kansas, KS/Research Universities (very high research activity)/Public___" class="series0 bubble University of Kansas, KS Research Universities (very high research activity) Public   " cx="224" cy="28.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="The Citadel, SC/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble The Citadel, SC Master&#39;s Colleges and Universities (larger programs) Public   " cx="222.66666666666666" cy="347" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Oklahoma State University, OK/Research Universities (high research activity)/Public___" class="series0 bubble Oklahoma State University, OK Research Universities (high research activity) Public   " cx="220" cy="294.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Iowa State University, IA/Research Universities (very high research activity)/Public___" class="series0 bubble Iowa State University, IA Research Universities (very high research activity) Public   " cx="214.66666666666669" cy="126.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Mary Washington, VA/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble University of Mary Washington, VA Master&#39;s Colleges and Universities (larger programs) Public   " cx="212.66666666666669" cy="284" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Auburn University, AL/Research Universities (high research activity)/Public___" class="series0 bubble Auburn University, AL Research Universities (high research activity) Public   " cx="210" cy="74" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="SUNY, Stony Brook (Stony Brook University), NY/Research Universities (very high research activity)/Public___" class="series0 bubble SUNY, Stony Brook (Stony Brook University), NY Research Universities (very high research activity) Public   " cx="208.66666666666669" cy="224.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Oregon, OR/Research Universities (very high research activity)/Public___" class="series0 bubble University of Oregon, OR Research Universities (very high research activity) Public   " cx="204.66666666666669" cy="53" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Arkansas, AR/Research Universities (very high research activity)/Public___" class="series0 bubble University of Arkansas, AR Research Universities (very high research activity) Public   " cx="199.33333333333334" cy="189.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Missouri, Columbia, MO/Research Universities (very high research activity)/Public___" class="series0 bubble University of Missouri, Columbia, MO Research Universities (very high research activity) Public   " cx="198.66666666666669" cy="39" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Florida State University, FL/Research Universities (very high research activity)/Public___" class="series0 bubble Florida State University, FL Research Universities (very high research activity) Public   " cx="194.66666666666666" cy="333" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Wyoming, WY/Research Universities (high research activity)/Public___" class="series0 bubble University of Wyoming, WY Research Universities (high research activity) Public   " cx="192.66666666666666" cy="336.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="George Mason University, VA/Research Universities (high research activity)/Public___" class="series0 bubble George Mason University, VA Research Universities (high research activity) Public   " cx="191.33333333333334" cy="123" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Iowa, IA/Research Universities (very high research activity)/Public___" class="series0 bubble University of Iowa, IA Research Universities (very high research activity) Public   " cx="182" cy="161.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Oklahoma, Norman, OK/Research Universities (very high research activity)/Public___" class="series0 bubble University of Oklahoma, Norman, OK Research Universities (very high research activity) Public   " cx="181.33333333333334" cy="319" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Massachusetts, Amherst, MA/Research Universities (very high research activity)/Public___" class="series0 bubble University of Massachusetts, Amherst, MA Research Universities (very high research activity) Public   " cx="180" cy="343.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Louisiana State University, LA/Research Universities (very high research activity)/Public___" class="series0 bubble Louisiana State University, LA Research Universities (very high research activity) Public   " cx="179.33333333333334" cy="308.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="California Polytechnic State University, San Luis Obispo, CA/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble California Polytechnic State University, San Luis Obispo, CA Master&#39;s Colleges and Universities (larger programs) Public   " cx="173.33333333333331" cy="242" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="James Madison University, VA/Master&#39;s Colleges and Universities (larger programs)/Public___" class="series0 bubble James Madison University, VA Master&#39;s Colleges and Universities (larger programs) Public   " cx="172" cy="301.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="United States Merchant Marine Academy, NY/Baccalaureate Colleges--Diverse Fields/Public___" class="series0 bubble United States Merchant Marine Academy, NY Baccalaureate Colleges--Diverse Fields Public   " cx="170" cy="357.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="North Carolina State University, Raleigh, NC/Research Universities (very high research activity)/Public___" class="series0 bubble North Carolina State University, Raleigh, NC Research Universities (very high research activity) Public   " cx="166.66666666666669" cy="263" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Utah, UT/Research Universities (very high research activity)/Public___" class="series0 bubble University of Utah, UT Research Universities (very high research activity) Public   " cx="155.33333333333334" cy="238.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Connecticut, CT/Research Universities (very high research activity)/Public___" class="series0 bubble University of Connecticut, CT Research Universities (very high research activity) Public   " cx="153.33333333333331" cy="84.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="SUNY, Binghamton (Binghamton University), NY/Research Universities (high research activity)/Public___" class="series0 bubble SUNY, Binghamton (Binghamton University), NY Research Universities (high research activity) Public   " cx="152.66666666666669" cy="277" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Ohio State University, Columbus, OH/Research Universities (very high research activity)/Public___" class="series0 bubble Ohio State University, Columbus, OH Research Universities (very high research activity) Public   " cx="152" cy="35.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Texas A&amp;M University, College Station, TX/Research Universities (very high research activity)/Public___" class="series0 bubble Texas A&amp;M University, College Station, TX Research Universities (very high research activity) Public   " cx="141.33333333333331" cy="280.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Virginia Tech, VA/Research Universities (very high research activity)/Public___" class="series0 bubble Virginia Tech, VA Research Universities (very high research activity) Public   " cx="133.33333333333334" cy="63.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Purdue University, West Lafayette, IN/Research Universities (very high research activity)/Public___" class="series0 bubble Purdue University, West Lafayette, IN Research Universities (very high research activity) Public   " cx="130.66666666666669" cy="70.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Colorado, Boulder, CO/Research Universities (very high research activity)/Public___" class="series0 bubble University of Colorado, Boulder, CO Research Universities (very high research activity) Public   " cx="127.33333333333333" cy="144" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Indiana University, Bloomington, IN/Research Universities (very high research activity)/Public___" class="series0 bubble Indiana University, Bloomington, IN Research Universities (very high research activity) Public   " cx="124.66666666666667" cy="102" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="United States Coast Guard Academy, CT/Baccalaureate Colleges--Diverse Fields/Public___" class="series0 bubble United States Coast Guard Academy, CT Baccalaureate Colleges--Diverse Fields Public   " cx="122.66666666666667" cy="361" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Georgia, GA/Research Universities (very high research activity)/Public___" class="series0 bubble University of Georgia, GA Research Universities (very high research activity) Public   " cx="120" cy="217.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Virginia Military Institute, VA/Baccalaureate Colleges--Arts &amp; Sciences/Public___" class="series0 bubble Virginia Military Institute, VA Baccalaureate Colleges--Arts &amp; Sciences Public   " cx="118" cy="231.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Georgia Institute of Technology, GA/Research Universities (very high research activity)/Public___" class="series0 bubble Georgia Institute of Technology, GA Research Universities (very high research activity) Public   " cx="115.33333333333334" cy="235" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="Brigham Young University, UT/Research Universities (high research activity)/Private___" class="series0 bubble Brigham Young University, UT Research Universities (high research activity) Private   " cx="110" cy="322.5" r="5" opacity="0.8" fill="#FB8072" stroke="#d26b5f"></circle><circle id="University of Florida, FL/Research Universities (very high research activity)/Public___" class="series0 bubble University of Florida, FL Research Universities (very high research activity) Public   " cx="109.33333333333334" cy="329.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Maryland, College Park, MD/Research Universities (very high research activity)/Public___" class="series0 bubble University of Maryland, College Park, MD Research Universities (very high research activity) Public   " cx="108.66666666666667" cy="228" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Wisconsin, Madison, WI/Research Universities (very high research activity)/Public___" class="series0 bubble University of Wisconsin, Madison, WI Research Universities (very high research activity) Public   " cx="105.33333333333334" cy="140.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Texas, Austin, TX/Research Universities (very high research activity)/Public___" class="series0 bubble University of Texas, Austin, TX Research Universities (very high research activity) Public   " cx="104" cy="91.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Washington, WA/Research Universities (very high research activity)/Public___" class="series0 bubble University of Washington, WA Research Universities (very high research activity) Public   " cx="96.66666666666667" cy="98.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="College of William and Mary, VA/Research Universities (high research activity)/Public___" class="series0 bubble College of William and Mary, VA Research Universities (high research activity) Public   " cx="89.33333333333333" cy="193" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of North Carolina, Chapel Hill, NC/Research Universities (very high research activity)/Public___" class="series0 bubble University of North Carolina, Chapel Hill, NC Research Universities (very high research activity) Public   " cx="85.33333333333334" cy="326" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of California, Los Angeles, CA/Research Universities (very high research activity)/Public___" class="series0 bubble University of California, Los Angeles, CA Research Universities (very high research activity) Public   " cx="82.66666666666667" cy="67" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="United States Air Force Academy, CO/Baccalaureate Colleges--Arts &amp; Sciences/Public___" class="series0 bubble United States Air Force Academy, CO Baccalaureate Colleges--Arts &amp; Sciences Public   " cx="80.66666666666667" cy="364.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of Virginia, VA/Research Universities (very high research activity)/Public___" class="series0 bubble University of Virginia, VA Research Universities (very high research activity) Public   " cx="79.33333333333334" cy="175.49999999999997" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="United States Naval Academy, MD/Baccalaureate Colleges--Arts &amp; Sciences/Public___" class="series0 bubble United States Naval Academy, MD Baccalaureate Colleges--Arts &amp; Sciences Public   " cx="78.66666666666667" cy="368" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="University of California, Berkeley, CA/Research Universities (very high research activity)/Public___" class="series0 bubble University of California, Berkeley, CA Research Universities (very high research activity) Public   " cx="74.66666666666667" cy="95" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><circle id="United States Military Academy, NY/Baccalaureate Colleges--Arts &amp; Sciences/Public___" class="series0 bubble United States Military Academy, NY Baccalaureate Colleges--Arts &amp; Sciences Public   " cx="64.66666666666667" cy="371.5" r="5" opacity="0.8" fill="#80B1D3" stroke="#6b94b0"></circle><g class="legend" opacity="1"><text id="legend_Public" class="legendText" style="font-family: sans-serif; font-size: 10px; shape-rendering: crispedges;" x="485" y="22.87878787878788" width="50" height="200">Public</text><rect class="legend legendKey" height="9" width="15" x="465" y="15" style="fill: #80b1d3; stroke: #6b94b0; opacity: 0.8; shape-rendering: crispedges;"></rect></g><g class="legend" opacity="1"><text id="legend_Private" class="legendText" style="font-family: sans-serif; font-size: 10px; shape-rendering: crispedges;" x="485" y="37.878787878787875" width="50" height="200">Private</text><rect class="legend legendKey" height="9" width="15" x="465" y="30" style="fill: #fb8072; stroke: #d26b5f; opacity: 0.8; shape-rendering: crispedges;"></rect></g></g></svg></div>
+          <br>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><code class="r"><span class="pln">library</span><span class="pun">(</span><span class="pln">rCharts</span><span class="pun">)</span></code></li><li class="L1"><code class="r"></code></li><li class="L2"><code class="r"><span class="typ">CompRank</span><span class="pun">=</span><span class="pln">read</span><span class="pun">.</span><span class="pln">csv</span><span class="pun">(</span><span class="str">"OverallRankings.csv"</span><span class="pun">,</span><span class="pln"> stringsAsFactors</span><span class="pun">=</span><span class="pln">FALSE</span><span class="pun">)</span></code></li><li class="L3"><code class="r"><span class="typ">BestValue</span><span class="pun">=</span><span class="pln">read</span><span class="pun">.</span><span class="pln">csv</span><span class="pun">(</span><span class="str">"2013BestValues.csv"</span><span class="pun">,</span><span class="pln">stringsAsFactors</span><span class="pun">=</span><span class="pln">FALSE</span><span class="pun">)</span></code></li><li class="L4"><code class="r"><span class="com"># Merge both</span></code></li><li class="L5"><code class="r"><span class="typ">TotalRank</span><span class="pun">=</span><span class="pln">merge</span><span class="pun">(</span><span class="typ">CompRank</span><span class="pun">,</span><span class="typ">BestValue</span><span class="pun">,</span><span class="pln">all</span><span class="pun">=</span><span class="pln">T</span><span class="pun">)</span></code></li><li class="L6"><code class="r"><span class="typ">TotalRank$Name</span><span class="pun">=</span><span class="pln">paste</span><span class="pun">(</span><span class="typ">TotalRank$Name</span><span class="pun">,</span><span class="typ">TotalRank$State</span><span class="pun">,</span><span class="pln">sep</span><span class="pun">=</span><span class="str">", "</span><span class="pun">)</span></code></li><li class="L7"><code class="r"><span class="typ">TotalRank</span><span class="pun">=</span><span class="typ">TotalRank</span><span class="pun">[-</span><span class="pln">c</span><span class="pun">(</span><span class="lit">2</span><span class="pun">)]</span></code></li><li class="L8"><code class="r"></code></li><li class="L9"><code class="r"><span class="com"># Replacing factor value and converting to numeric</span></code></li><li class="L0"><code class="r"></code></li><li class="L1"><code class="r"><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln">i </span><span class="kwd">in</span><span class="pln"> </span><span class="lit">1</span><span class="pun">:</span><span class="lit">18</span><span class="pun">){</span><span class="typ">TotalRank</span><span class="pun">[,</span><span class="pln">i</span><span class="pun">]&lt;-</span><span class="pln">gsub</span><span class="pun">(</span><span class="str">"600-650"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"625"</span><span class="pun">,</span><span class="pln"> </span><span class="typ">TotalRank</span><span class="pun">[,</span><span class="pln">i</span><span class="pun">])}</span></code></li><li class="L2"><code class="r"><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln">i </span><span class="kwd">in</span><span class="pln"> </span><span class="lit">1</span><span class="pun">:</span><span class="lit">18</span><span class="pun">){</span><span class="typ">TotalRank</span><span class="pun">[,</span><span class="pln">i</span><span class="pun">]&lt;-</span><span class="pln">gsub</span><span class="pun">(</span><span class="str">"#NA"</span><span class="pun">,</span><span class="pln"> </span><span class="str">""</span><span class="pun">,</span><span class="pln"> </span><span class="typ">TotalRank</span><span class="pun">[,</span><span class="pln">i</span><span class="pun">])}</span></code></li><li class="L3"><code class="r"></code></li><li class="L4"><code class="r"><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln">i </span><span class="kwd">in</span><span class="pln"> </span><span class="lit">4</span><span class="pun">:</span><span class="lit">18</span><span class="pun">){</span><span class="typ">TotalRank</span><span class="pun">[,</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">as</span><span class="pun">.</span><span class="pln">numeric</span><span class="pun">(</span><span class="typ">TotalRank</span><span class="pun">[,</span><span class="pln">i</span><span class="pun">])}</span></code></li><li class="L5"><code class="r"><span class="kwd">for</span><span class="pln"> </span><span class="pun">(</span><span class="pln">i </span><span class="kwd">in</span><span class="pln"> </span><span class="lit">1</span><span class="pun">:</span><span class="lit">3</span><span class="pun">){</span><span class="typ">TotalRank</span><span class="pun">[,</span><span class="pln">i</span><span class="pun">]</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> factor</span><span class="pun">(</span><span class="typ">TotalRank</span><span class="pun">[,</span><span class="pln">i</span><span class="pun">])}</span></code></li><li class="L6"><code class="r"></code></li><li class="L7"><code class="r"><span class="typ">TotalRank$Carnegie</span><span class="pun">.</span><span class="typ">Classification</span><span class="pun">=</span><span class="pln">factor</span><span class="pun">(</span><span class="typ">TotalRank$Carnegie</span><span class="pun">.</span><span class="typ">Classification</span><span class="pun">,</span></code></li><li class="L8"><code class="r"><span class="pln">                                         c</span><span class="pun">(</span><span class="str">"Baccalaureate Colleges--Arts &amp; Sciences"</span><span class="pun">,</span></code></li><li class="L9"><code class="r"><span class="pln">                                           </span><span class="str">"Baccalaureate Colleges--Diverse Fields"</span><span class="pun">,</span></code></li><li class="L0"><code class="r"><span class="pln">                                           </span><span class="str">"Master's Colleges and Universities (smaller programs)"</span><span class="pun">,</span></code></li><li class="L1"><code class="r"><span class="pln">                                           </span><span class="str">"Master's Colleges and Universities (medium programs)"</span><span class="pun">,</span></code></li><li class="L2"><code class="r"><span class="pln">                                           </span><span class="str">"Master's Colleges and Universities (larger programs)"</span><span class="pun">,</span></code></li><li class="L3"><code class="r"><span class="pln">                                           </span><span class="str">"Doctoral/Research Universities"</span><span class="pun">,</span></code></li><li class="L4"><code class="r"><span class="pln">                                           </span><span class="str">"Research Universities (high research activity)"</span><span class="pun">,</span></code></li><li class="L5"><code class="r"><span class="pln">                                           </span><span class="str">"Research Universities (very high research activity)"</span><span class="pun">))</span></code></li><li class="L6"><code class="r"></code></li><li class="L7"><code class="r"><span class="com"># Overall Rankings of Colleges for those ranked as Best Value</span></code></li><li class="L8"><code class="r"></code></li><li class="L9"><code class="r"><span class="typ">BvalandOrankmore</span><span class="pun">=</span><span class="typ">TotalRank</span><span class="pun">[</span><span class="pln">c</span><span class="pun">(</span><span class="lit">1</span><span class="pun">,</span><span class="lit">2</span><span class="pun">,</span><span class="lit">3</span><span class="pun">,</span><span class="lit">17</span><span class="pun">,</span><span class="lit">18</span><span class="pun">)]</span></code></li><li class="L0"><code class="r"><span class="typ">BvalandOrankmore</span><span class="pun">=</span><span class="pln">subset</span><span class="pun">(</span><span class="typ">BvalandOrankmore</span><span class="pun">,</span><span class="typ">BvalandOrankmore$Best</span><span class="pun">.</span><span class="typ">Value</span><span class="pun">.</span><span class="typ">Rank</span><span class="pun">!=</span><span class="str">"NA"</span><span class="pun">)</span></code></li><li class="L1"><code class="r"></code></li><li class="L2"><code class="r"><span class="typ">BvalandOrankmore$Name</span><span class="pun">=</span><span class="pln">reorder</span><span class="pun">(</span><span class="typ">BvalandOrankmore$Name</span><span class="pun">,</span><span class="typ">BvalandOrankmore$Best</span><span class="pun">.</span><span class="typ">Value</span><span class="pun">.</span><span class="typ">Rank</span><span class="pun">)</span></code></li><li class="L3"><code class="r"></code></li><li class="L4"><code class="r"><span class="pln">d1 </span><span class="pun">&lt;-</span><span class="pln"> dPlot</span><span class="pun">(</span></code></li><li class="L5"><code class="r"><span class="pln">  </span><span class="typ">Best</span><span class="pun">.</span><span class="typ">Value</span><span class="pun">.</span><span class="typ">Rank</span><span class="pln"> </span><span class="pun">~</span><span class="pln"> </span><span class="typ">Overall</span><span class="pun">.</span><span class="typ">Rank</span><span class="pun">,</span></code></li><li class="L6"><code class="r"><span class="pln">  groups </span><span class="pun">=</span><span class="pln"> c</span><span class="pun">(</span><span class="str">"Name"</span><span class="pun">,</span><span class="str">"Carnegie.Classification"</span><span class="pun">,</span><span class="str">"Control"</span><span class="pun">),</span></code></li><li class="L7"><code class="r"><span class="pln">  data </span><span class="pun">=</span><span class="pln"> </span><span class="typ">BvalandOrankmore</span><span class="pun">,</span></code></li><li class="L8"><code class="r"><span class="pln">  type </span><span class="pun">=</span><span class="pln"> </span><span class="str">"bubble"</span><span class="pun">,</span><span class="pln">height</span><span class="pun">=</span><span class="lit">800</span><span class="pun">,</span></code></li><li class="L9"><code class="r"><span class="pln">  width</span><span class="pun">=</span><span class="lit">1000</span><span class="pun">,</span></code></li><li class="L0"><code class="r"><span class="pln">  bounds </span><span class="pun">=</span><span class="pln"> list</span><span class="pun">(</span><span class="pln">x</span><span class="pun">=</span><span class="lit">60</span><span class="pun">,</span><span class="pln"> y</span><span class="pun">=</span><span class="lit">25</span><span class="pun">,</span><span class="pln"> width</span><span class="pun">=</span><span class="lit">400</span><span class="pun">,</span><span class="pln"> height</span><span class="pun">=</span><span class="lit">350</span><span class="pun">)</span></code></li><li class="L1"><code class="r"><span class="pun">)</span></code></li><li class="L2"><code class="r"><span class="pln">d1$xAxis</span><span class="pun">(</span><span class="pln"> type </span><span class="pun">=</span><span class="pln"> </span><span class="str">"addMeasureAxis"</span><span class="pln"> </span><span class="pun">)</span></code></li><li class="L3"><code class="r"><span class="pln">d1$yAxis</span><span class="pun">(</span><span class="pln"> type </span><span class="pun">=</span><span class="pln"> </span><span class="str">"addMeasureAxis"</span><span class="pln"> </span><span class="pun">)</span></code></li><li class="L4"><code class="r"><span class="pln">d1$legend</span><span class="pun">(</span></code></li><li class="L5"><code class="r"><span class="pln">  x </span><span class="pun">=</span><span class="pln"> </span><span class="lit">465</span><span class="pun">,</span></code></li><li class="L6"><code class="r"><span class="pln">  y </span><span class="pun">=</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span></code></li><li class="L7"><code class="r"><span class="pln">  width </span><span class="pun">=</span><span class="pln"> </span><span class="lit">50</span><span class="pun">,</span></code></li><li class="L8"><code class="r"><span class="pln">  height </span><span class="pun">=</span><span class="pln"> </span><span class="lit">200</span><span class="pun">,</span></code></li><li class="L9"><code class="r"><span class="pln">  horizontalAlign </span><span class="pun">=</span><span class="pln"> </span><span class="str">"left"</span></code></li><li class="L0"><code class="r"><span class="pun">)</span></code></li><li class="L1"><code class="r"><span class="pln">d1</span></code></li></ol></pre>
+</div>
+        </div>
+      </div>
+    </div>
+      
+    <script type="text/javascript">
+  var opts = {
+ "dom": "chart910292421ad",
+"width":    700,
+"height":    800,
+"x": "Overall.Rank",
+"y": "Best.Value.Rank",
+"groups": [ "Name", "Carnegie.Classification", "Control" ],
+"type": "bubble",
+"bounds": {
+ "x":     60,
+"y":     25,
+"width":    400,
+"height":    350 
+},
+"id": "chart910292421ad" 
+},
+    data = [
+ {
+ "Name": "Appalachian State University, NC",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    452,
+"Best.Value.Rank":     18 
+},
+{
+ "Name": "Auburn University, AL",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    225,
+"Best.Value.Rank":     86 
+},
+{
+ "Name": "Berea College, KY",
+"Carnegie.Classification": "Baccalaureate Colleges--Arts & Sciences",
+"Control": "Private",
+"Overall.Rank":    369,
+"Best.Value.Rank":      6 
+},
+{
+ "Name": "Brigham Young University, UT",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Private",
+"Overall.Rank":     75,
+"Best.Value.Rank":     15 
+},
+{
+ "Name": "Brigham Young University, Idaho, ID",
+"Carnegie.Classification": "Baccalaureate Colleges--Diverse Fields",
+"Control": "Private",
+"Overall.Rank":    469,
+"Best.Value.Rank":     29 
+},
+{
+ "Name": "California Maritime Academy, CA",
+"Carnegie.Classification": "Baccalaureate Colleges--Diverse Fields",
+"Control": "Public",
+"Overall.Rank":    293,
+"Best.Value.Rank":     60 
+},
+{
+ "Name": "California Polytechnic State University, San Luis Obispo, CA",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    170,
+"Best.Value.Rank":     38 
+},
+{
+ "Name": "Christopher Newport University, VA",
+"Carnegie.Classification": "Master's Colleges and Universities (smaller programs)",
+"Control": "Public",
+"Overall.Rank":    416,
+"Best.Value.Rank":     93 
+},
+{
+ "Name": "College of Charleston, SC",
+"Carnegie.Classification": "Master's Colleges and Universities (medium programs)",
+"Control": "Public",
+"Overall.Rank":    429,
+"Best.Value.Rank":      7 
+},
+{
+ "Name": "College of William and Mary, VA",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":     44,
+"Best.Value.Rank":     52 
+},
+{
+ "Name": "Colorado State University, CO",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    291,
+"Best.Value.Rank":     77 
+},
+{
+ "Name": "CUNY, Baruch College, NY",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    280,
+"Best.Value.Rank":     48 
+},
+{
+ "Name": "CUNY, Brooklyn College, NY",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    301,
+"Best.Value.Rank":     51 
+},
+{
+ "Name": "CUNY, Hunter College, NY",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    381,
+"Best.Value.Rank":     63 
+},
+{
+ "Name": "CUNY, Queens College, NY",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    334,
+"Best.Value.Rank":     56 
+},
+{
+ "Name": "East Carolina University, NC",
+"Carnegie.Classification": "Doctoral/Research Universities",
+"Control": "Public",
+"Overall.Rank":    508,
+"Best.Value.Rank":     33 
+},
+{
+ "Name": "Florida State University, FL",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    202,
+"Best.Value.Rank":     12 
+},
+{
+ "Name": "George Mason University, VA",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    197,
+"Best.Value.Rank":     72 
+},
+{
+ "Name": "Georgia Institute of Technology, GA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     83,
+"Best.Value.Rank":     40 
+},
+{
+ "Name": "Indiana University, Bloomington, IN",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     97,
+"Best.Value.Rank":     78 
+},
+{
+ "Name": "Iowa State University, IA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    232,
+"Best.Value.Rank":     71 
+},
+{
+ "Name": "James Madison University, VA",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    168,
+"Best.Value.Rank":     21 
+},
+{
+ "Name": "Louisiana State University, LA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    179,
+"Best.Value.Rank":     19 
+},
+{
+ "Name": "Louisiana Tech University, LA",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    471,
+"Best.Value.Rank":     49 
+},
+{
+ "Name": "Mississippi State University, MS",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    279,
+"Best.Value.Rank":     65 
+},
+{
+ "Name": "Montana State University, Bozeman, MT",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    255,
+"Best.Value.Rank":     44 
+},
+{
+ "Name": "New College of Florida, FL",
+"Carnegie.Classification": "Baccalaureate Colleges--Arts & Sciences",
+"Control": "Public",
+"Overall.Rank":    316,
+"Best.Value.Rank":     36 
+},
+{
+ "Name": "New Mexico Institute of Mining and Technology, NM",
+"Carnegie.Classification": "Master's Colleges and Universities (medium programs)",
+"Control": "Public",
+"Overall.Rank":    370,
+"Best.Value.Rank":     47 
+},
+{
+ "Name": "North Carolina State University, Raleigh, NC",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    160,
+"Best.Value.Rank":     32 
+},
+{
+ "Name": "North Dakota State University, ND",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    430,
+"Best.Value.Rank":    100 
+},
+{
+ "Name": "Ohio State University, Columbus, OH",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    138,
+"Best.Value.Rank":     97 
+},
+{
+ "Name": "Oklahoma State University, OK",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    240,
+"Best.Value.Rank":     23 
+},
+{
+ "Name": "Old Dominion University, VA",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    514,
+"Best.Value.Rank":     84 
+},
+{
+ "Name": "Oregon State University, OR",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    304,
+"Best.Value.Rank":     75 
+},
+{
+ "Name": "Purdue University, West Lafayette, IN",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    106,
+"Best.Value.Rank":     87 
+},
+{
+ "Name": "Sam Houston State University, TX",
+"Carnegie.Classification": "Doctoral/Research Universities",
+"Control": "Public",
+"Overall.Rank":    567,
+"Best.Value.Rank":     70 
+},
+{
+ "Name": "San Diego State University, CA",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    264,
+"Best.Value.Rank":     54 
+},
+{
+ "Name": "South Dakota State University, SD",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    481,
+"Best.Value.Rank":     31 
+},
+{
+ "Name": "SUNY, Albany (University at Albany), NY",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    389,
+"Best.Value.Rank":     68 
+},
+{
+ "Name": "SUNY, Binghamton (Binghamton University), NY",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    139,
+"Best.Value.Rank":     28 
+},
+{
+ "Name": "SUNY, Buffalo (University at Buffalo), NY",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    300,
+"Best.Value.Rank":     55 
+},
+{
+ "Name": "SUNY, College of Environmental Science and Forestry, NY",
+"Carnegie.Classification": "Doctoral/Research Universities",
+"Control": "Public",
+"Overall.Rank":    320,
+"Best.Value.Rank":     58 
+},
+{
+ "Name": "SUNY, Geneseo, NY",
+"Carnegie.Classification": "Master's Colleges and Universities (smaller programs)",
+"Control": "Public",
+"Overall.Rank":    250,
+"Best.Value.Rank":     46 
+},
+{
+ "Name": "SUNY, Stony Brook (Stony Brook University), NY",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    223,
+"Best.Value.Rank":     43 
+},
+{
+ "Name": "Texas A&M University, College Station, TX",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    122,
+"Best.Value.Rank":     27 
+},
+{
+ "Name": "Texas A&M University, Corpus Christi, TX",
+"Carnegie.Classification": "Doctoral/Research Universities",
+"Control": "Public",
+"Overall.Rank":    586,
+"Best.Value.Rank":     90 
+},
+{
+ "Name": "Texas State University, TX",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    487,
+"Best.Value.Rank":     82 
+},
+{
+ "Name": "Texas Tech University, TX",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    447,
+"Best.Value.Rank":     62 
+},
+{
+ "Name": "The Citadel, SC",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    244,
+"Best.Value.Rank":      8 
+},
+{
+ "Name": "Towson University, MD",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    400,
+"Best.Value.Rank":     76 
+},
+{
+ "Name": "United States Air Force Academy, CO",
+"Carnegie.Classification": "Baccalaureate Colleges--Arts & Sciences",
+"Control": "Public",
+"Overall.Rank":     31,
+"Best.Value.Rank":      3 
+},
+{
+ "Name": "United States Coast Guard Academy, CT",
+"Carnegie.Classification": "Baccalaureate Colleges--Diverse Fields",
+"Control": "Public",
+"Overall.Rank":     94,
+"Best.Value.Rank":      4 
+},
+{
+ "Name": "United States Merchant Marine Academy, NY",
+"Carnegie.Classification": "Baccalaureate Colleges--Diverse Fields",
+"Control": "Public",
+"Overall.Rank":    165,
+"Best.Value.Rank":      5 
+},
+{
+ "Name": "United States Military Academy, NY",
+"Carnegie.Classification": "Baccalaureate Colleges--Arts & Sciences",
+"Control": "Public",
+"Overall.Rank":      7,
+"Best.Value.Rank":      1 
+},
+{
+ "Name": "United States Naval Academy, MD",
+"Carnegie.Classification": "Baccalaureate Colleges--Arts & Sciences",
+"Control": "Public",
+"Overall.Rank":     28,
+"Best.Value.Rank":      2 
+},
+{
+ "Name": "University of Arkansas, AR",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    209,
+"Best.Value.Rank":     53 
+},
+{
+ "Name": "University of California, Berkeley, CA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     22,
+"Best.Value.Rank":     80 
+},
+{
+ "Name": "University of California, Los Angeles, CA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     34,
+"Best.Value.Rank":     88 
+},
+{
+ "Name": "University of Central Florida, FL",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    405,
+"Best.Value.Rank":     34 
+},
+{
+ "Name": "University of Colorado, Boulder, CO",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    101,
+"Best.Value.Rank":     66 
+},
+{
+ "Name": "University of Colorado, Colorado Springs, CO",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    513,
+"Best.Value.Rank":     95 
+},
+{
+ "Name": "University of Connecticut, CT",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    140,
+"Best.Value.Rank":     83 
+},
+{
+ "Name": "University of Florida, FL",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     74,
+"Best.Value.Rank":     13 
+},
+{
+ "Name": "University of Georgia, GA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     90,
+"Best.Value.Rank":     45 
+},
+{
+ "Name": "University of Idaho, ID",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    352,
+"Best.Value.Rank":     25 
+},
+{
+ "Name": "University of Iowa, IA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    183,
+"Best.Value.Rank":     61 
+},
+{
+ "Name": "University of Kansas, KS",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    246,
+"Best.Value.Rank":     99 
+},
+{
+ "Name": "University of Mary Washington, VA",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    229,
+"Best.Value.Rank":     26 
+},
+{
+ "Name": "University of Maryland, Baltimore County, MD",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    306,
+"Best.Value.Rank":     94 
+},
+{
+ "Name": "University of Maryland, College Park, MD",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     73,
+"Best.Value.Rank":     42 
+},
+{
+ "Name": "University of Massachusetts, Amherst, MA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    180,
+"Best.Value.Rank":      9 
+},
+{
+ "Name": "University of Massachusetts, Lowell, MA",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    477,
+"Best.Value.Rank":     10 
+},
+{
+ "Name": "University of Mississippi, MS",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    278,
+"Best.Value.Rank":     64 
+},
+{
+ "Name": "University of Missouri, Columbia, MO",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    208,
+"Best.Value.Rank":     96 
+},
+{
+ "Name": "University of Montana, MT",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    426,
+"Best.Value.Rank":     50 
+},
+{
+ "Name": "University of Nebraska, Lincoln, NE",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    247,
+"Best.Value.Rank":     69 
+},
+{
+ "Name": "University of North Carolina, Asheville, NC",
+"Carnegie.Classification": "Baccalaureate Colleges--Arts & Sciences",
+"Control": "Public",
+"Overall.Rank":    480,
+"Best.Value.Rank":     20 
+},
+{
+ "Name": "University of North Carolina, Chapel Hill, NC",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     38,
+"Best.Value.Rank":     14 
+},
+{
+ "Name": "University of North Carolina, Charlotte, NC",
+"Carnegie.Classification": "Doctoral/Research Universities",
+"Control": "Public",
+"Overall.Rank":    488,
+"Best.Value.Rank":     24 
+},
+{
+ "Name": "University of North Carolina, Greensboro, NC",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    530,
+"Best.Value.Rank":     37 
+},
+{
+ "Name": "University of North Carolina, Wilmington, NC",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    484,
+"Best.Value.Rank":     22 
+},
+{
+ "Name": "University of North Dakota, ND",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    412,
+"Best.Value.Rank":     85 
+},
+{
+ "Name": "University of North Florida, FL",
+"Carnegie.Classification": "Master's Colleges and Universities (larger programs)",
+"Control": "Public",
+"Overall.Rank":    539,
+"Best.Value.Rank":     35 
+},
+{
+ "Name": "University of Oklahoma, Norman, OK",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    182,
+"Best.Value.Rank":     16 
+},
+{
+ "Name": "University of Oregon, OR",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    217,
+"Best.Value.Rank":     92 
+},
+{
+ "Name": "University of South Dakota, SD",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    330,
+"Best.Value.Rank":     17 
+},
+{
+ "Name": "University of South Florida, FL",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    446,
+"Best.Value.Rank":     91 
+},
+{
+ "Name": "University of Tennessee, Knoxville, TN",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    282,
+"Best.Value.Rank":     98 
+},
+{
+ "Name": "University of Texas, Austin, TX",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     66,
+"Best.Value.Rank":     81 
+},
+{
+ "Name": "University of Utah, UT",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    143,
+"Best.Value.Rank":     39 
+},
+{
+ "Name": "University of Virginia, VA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     29,
+"Best.Value.Rank":     57 
+},
+{
+ "Name": "University of Washington, WA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     55,
+"Best.Value.Rank":     79 
+},
+{
+ "Name": "University of West Florida, FL",
+"Carnegie.Classification": "Doctoral/Research Universities",
+"Control": "Public",
+"Overall.Rank":    599,
+"Best.Value.Rank":     59 
+},
+{
+ "Name": "University of Wisconsin, Madison, WI",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":     68,
+"Best.Value.Rank":     67 
+},
+{
+ "Name": "University of Wyoming, WY",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    199,
+"Best.Value.Rank":     11 
+},
+{
+ "Name": "Utah State University, UT",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    265,
+"Best.Value.Rank":     30 
+},
+{
+ "Name": "Virginia Military Institute, VA",
+"Carnegie.Classification": "Baccalaureate Colleges--Arts & Sciences",
+"Control": "Public",
+"Overall.Rank":     87,
+"Best.Value.Rank":     41 
+},
+{
+ "Name": "Virginia Tech, VA",
+"Carnegie.Classification": "Research Universities (very high research activity)",
+"Control": "Public",
+"Overall.Rank":    110,
+"Best.Value.Rank":     89 
+},
+{
+ "Name": "West Virginia University, WV",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    360,
+"Best.Value.Rank":     74 
+},
+{
+ "Name": "Wichita State University, KS",
+"Carnegie.Classification": "Research Universities (high research activity)",
+"Control": "Public",
+"Overall.Rank":    466,
+"Best.Value.Rank":     73 
+} 
+],
+    xAxis = {
+ "type": "addMeasureAxis",
+"showPercent": false 
+},
+    yAxis = {
+ "type": "addMeasureAxis",
+"showPercent": false 
+},
+    zAxis = [],
+    colorAxis = [],
+    legend = {
+ "x":    465,
+"y":      0,
+"width":     50,
+"height":    200,
+"horizontalAlign": "left" 
+};
+  var svg = dimple.newSvg("#" + opts.id, opts.width, opts.height);
+
+  //data = dimple.filterData(data, "Owner", ["Aperture", "Black Mesa"])
+  var myChart = new dimple.chart(svg, data);
+  if (opts.bounds) {
+    myChart.setBounds(opts.bounds.x, opts.bounds.y, opts.bounds.width, opts.bounds.height);//myChart.setBounds(80, 30, 480, 330);
+  }
+  //dimple allows use of custom CSS with noFormats
+  if(opts.noFormats) { myChart.noFormats = opts.noFormats; };
+  //for markimekko and addAxis also have third parameter measure
+  //so need to evaluate if measure provided
+  //x axis
+  var x;
+  if(xAxis.measure) {
+    x = myChart[xAxis.type]("x",opts.x,xAxis.measure);
+  } else {
+    x = myChart[xAxis.type]("x", opts.x);
+  };
+  if(!(xAxis.type === "addPctAxis")) x.showPercent = xAxis.showPercent;
+  if (xAxis.orderRule) x.addOrderRule(xAxis.orderRule);
+  if (xAxis.grouporderRule) x.addGroupOrderRule(xAxis.grouporderRule);  
+  if (xAxis.overrideMin) x.overrideMin = xAxis.overrideMin;
+  if (xAxis.overrideMax) x.overrideMax = xAxis.overrideMax;
+  if (xAxis.overrideMax) x.overrideMax = xAxis.overrideMax;
+  if (xAxis.inputFormat) x.dateParseFormat = xAxis.inputFormat;
+  if (xAxis.outputFormat) x.tickFormat = xAxis.outputFormat;
+  //y axis
+  var y;
+  if(yAxis.measure) {
+    y = myChart[yAxis.type]("y",opts.y,yAxis.measure);
+  } else {
+    y = myChart[yAxis.type]("y", opts.y);
+  };
+  if(!(yAxis.type === "addPctAxis")) y.showPercent = yAxis.showPercent;
+  if (yAxis.orderRule) y.addOrderRule(yAxis.orderRule);
+  if (yAxis.grouporderRule) y.addGroupOrderRule(yAxis.grouporderRule);
+  if (yAxis.overrideMin) y.overrideMin = yAxis.overrideMin;
+  if (yAxis.overrideMax) y.overrideMax = yAxis.overrideMax;
+  if (yAxis.inputFormat) y.dateParseFormat = yAxis.inputFormat;
+  if (yAxis.outputFormat) y.tickFormat = yAxis.outputFormat;
+//z for bubbles
+    var z;
+  if (!(typeof(zAxis) === 'undefined') && zAxis.type){
+    if(zAxis.measure) {
+      z = myChart[zAxis.type]("z",opts.z,zAxis.measure);
+    } else {
+      z = myChart[zAxis.type]("z", opts.z);
+    };
+    if(!(zAxis.type === "addPctAxis")) z.showPercent = zAxis.showPercent;
+    if (zAxis.orderRule) z.addOrderRule(zAxis.orderRule);
+    if (zAxis.overrideMin) z.overrideMin = zAxis.overrideMin;
+    if (zAxis.overrideMax) z.overrideMax = zAxis.overrideMax;
+  }
+  if(d3.keys(colorAxis).length > 0) {
+    myChart[colorAxis.type](colorAxis.colorSeries,colorAxis.palette) ;
+  }
+  
+  //here need think I need to evaluate group and if missing do null
+  //as the first argument
+  //if provided need to use groups from opts
+  if(opts.hasOwnProperty("groups")) {
+    var s = myChart.addSeries( opts.groups, dimple.plot[opts.type] );
+    //series offers an aggregate method that we will also need to check if available
+    //options available are avg, count, max, min, sum
+    if (!(typeof(opts.aggregate) === 'undefined')) {
+      s.aggregate = eval(opts.aggregate);
+    }
+    if (!(typeof(opts.lineWeight) === 'undefined')) {
+      s.lineWeight = eval(opts.lineWeight);
+    }
+    if (!(typeof(opts.barGap) === 'undefined')) {
+      s.barGap = eval(opts.barGap);
+    }    
+  } else var s = myChart.addSeries( null, dimple.plot[opts.type] );
+  //unsure if this is best but if legend is provided (not empty) then evaluate
+  if(d3.keys(legend).length > 0) {
+    var l =myChart.addLegend();
+    d3.keys(legend).forEach(function(d){
+      l[d] = legend[d];
+    });
+  }
+  //quick way to get this going but need to make this cleaner
+  if(opts.storyboard) {
+    myChart.setStoryboard(opts.storyboard);
+  };
+  myChart.draw();
+
+</script>
+    
+  
+  <!-- Google Prettify -->
+  <script src="./onlydimplechart_files/prettify.js"></script>
+  <script src="./onlydimplechart_files/lang-r.js">
+  </script>
+  <script>
+    var pres = document.getElementsByTagName("pre");
+    for (var i=0; i < pres.length; ++i) {
+      pres[i].className = "prettyprint linenums";
+    }
+    prettyPrint();
+  </script>
+
+</body></html>
